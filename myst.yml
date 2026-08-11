@@ -1,0 +1,39 @@
+version: 1
+
+project:
+  id: 5a0c7495-ef09-4184-acdf-3f8b9871613e
+  title: ACUS220
+  description: Curso optativo orientado al desarrollo de herramientas computacionales para estudiantes de Acústica.
+
+  keywords:
+    - acústica computacional
+    - Python
+    - ciencia de datos
+    - audio
+    - aprendizaje de máquina
+    - reproducibilidad
+
+  bibliography:
+    - references.bib
+
+  toc:
+    - file: index.md
+
+    - title: Preparación
+      children:
+        - file: contenidos/00_preparacion/00_preparacion_entorno.md
+
+    - title: Entorno computacional
+      children:
+        - file: contenidos/01_entorno_computacional/clase01.md
+    - file: contenidos/referencias.md
+
+site:
+  template: book-theme
+  options:
+    logo: assets/images/escudo_uach.png
+    logo_text: ACUS220
+    style: ./assets/site.css
+
+  parts:
+    footer: footer.md

@@ -1,0 +1,9 @@
+.DS_Store
+**/.DS_Store
+_build/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*_backup_*.md
+.venv/
+venv/

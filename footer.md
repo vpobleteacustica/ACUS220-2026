@@ -1,0 +1,1 @@
+© 2026 · ACUS220 · Universidad Austral de Chile
