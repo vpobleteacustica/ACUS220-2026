@@ -26,6 +26,11 @@ project:
     - title: Entorno computacional
       children:
         - file: contenidos/01_entorno_computacional/clase01.md
+
+    - title: Proyecto computacional
+      children:
+        - file: contenidos/02_proyecto_computacional/clase02.md
+
     - file: contenidos/referencias.md
 
 site:

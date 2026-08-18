@@ -1,1 +1,1 @@
-© 2026 · ACUS220 · Universidad Austral de Chile
+© 2026 · ACUS220 · Instituto de Acústica · Universidad Austral de Chile
