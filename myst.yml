@@ -37,6 +37,10 @@ project:
       children:
         - file: contenidos/03_exploracion_audio/clase03.ipynb
 
+    - title: Clase 04 — Clasificación del llanto (en construcción)
+      children:
+        - file: contenidos/04_clasificacion_llanto/clase04.ipynb
+
     - file: contenidos/referencias.md
 
 site:
