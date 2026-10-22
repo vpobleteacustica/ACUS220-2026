@@ -40,6 +40,7 @@ project:
     - title: Clase 04 — Clasificación del llanto (en construcción)
       children:
         - file: contenidos/04_clasificacion_llanto/clase04.ipynb
+        - file: contenidos/04_clasificacion_llanto/ACUS220_laboratorio_escucha_y_espectro.ipynb
 
     - file: contenidos/referencias.md
 
