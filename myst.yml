@@ -33,12 +33,9 @@ project:
         - file: contenidos/02_proyecto_computacional/hito01_pauta.md
         - file: contenidos/02_proyecto_computacional/hito02_pauta.md
 
-    - title: Exploración de audio
+    - title: Llanto infantil — Exploración y clasificación
       children:
         - file: contenidos/03_exploracion_audio/clase03.ipynb
-
-    - title: Clase 04 — Clasificación del llanto (en construcción)
-      children:
         - file: contenidos/04_clasificacion_llanto/clase04.ipynb
         - file: contenidos/04_clasificacion_llanto/ACUS220_laboratorio_escucha_y_espectro.ipynb
 
