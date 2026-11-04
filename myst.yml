@@ -39,6 +39,9 @@ project:
         - file: contenidos/04_clasificacion_llanto/clase04.ipynb
         - file: contenidos/04_clasificacion_llanto/ACUS220_laboratorio_escucha_y_espectro.ipynb
 
+    - title: Audio Spectrogram Transformer (AST)
+      children:
+        - file: contenidos/05_introduccion_ast/clase05_ast.ipynb
     - file: contenidos/referencias.md
 
 site:
