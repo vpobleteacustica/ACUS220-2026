@@ -42,7 +42,7 @@ project:
     - title: Audio Spectrogram Transformer (AST)
       children:
         - file: contenidos/05_introduccion_ast/clase05_ast.ipynb
-    - title: Clase 06 — Conoce tu ciudad
+    - title: Conoce tu ciudad — Tránsito y ambiente sonoro
       children:
         - file: contenidos/06_conoce_tu_ciudad/conoce_tu_ciudad.md
     - file: contenidos/referencias.md
