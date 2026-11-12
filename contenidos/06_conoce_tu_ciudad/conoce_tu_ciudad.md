@@ -146,7 +146,7 @@ Registro audiovisual exploratorio de 30 segundos.
 El video original contiene sonido.
 :::
 
-**[Abrir el video original con sonido](https://vpobleteacustica.github.io/ACUS220-2026/media_local/av_alemania_video.mp4)**
+**[Abrir el video original con sonido](/media_local/av_alemania_video.mp4)**
 
 **Pregunta:** ¿Cuántos vehículos crees que pasan durante
 estos 30 segundos?
@@ -155,7 +155,7 @@ estos 30 segundos?
 
 Reproduce solamente la pista sonora:
 
-**[Escuchar el audio del tránsito](https://vpobleteacustica.github.io/ACUS220-2026/media_local/av_alemania_audio.wav)**
+**[Escuchar el audio del tránsito](/media_local/av_alemania_audio.wav)**
 
 ¿Reconoces los mismos eventos que observaste en el video?
 
