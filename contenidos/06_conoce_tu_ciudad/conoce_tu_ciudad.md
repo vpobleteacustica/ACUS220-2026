@@ -139,8 +139,14 @@ Reproduce este fragmento nocturno de Avenida Alemania.
 Presta atención a los vehículos que circulan y a los sonidos
 que producen.
 
-**Demostración en clase:** observaremos y escucharemos el registro nocturno de tránsito en Avenida Alemania.
-*El video con sonido se presentará durante la clase.*
+:::{figure} ./media_local/av_alemania_video.mp4
+:label: video-transito-nocturno
+
+Registro audiovisual exploratorio de 30 segundos.
+El video original contiene sonido.
+:::
+
+**[Abrir el video original con sonido](/ACUS220-2026/media_local/av_alemania_video.mp4)**
 
 **Pregunta:** ¿Cuántos vehículos crees que pasan durante
 estos 30 segundos?
@@ -149,7 +155,7 @@ estos 30 segundos?
 
 Reproduce solamente la pista sonora:
 
-*La pista de audio se reproducirá durante la clase.*
+**[Escuchar el audio del tránsito](/ACUS220-2026/media_local/av_alemania_audio.wav)**
 
 ¿Reconoces los mismos eventos que observaste en el video?
 
@@ -166,7 +172,14 @@ La forma de onda muestra cómo cambia la amplitud de la señal del audio que gra
 El espectrograma permite observar su contenido frecuencial
 a lo largo del tiempo.
 
-**Visualización en clase:** compararemos la forma de onda y el espectrograma del registro de tránsito.
+:::{figure} ./media_local/fig_forma_onda_espectrograma_v01.png
+:label: fig-transito-espectrograma
+
+Forma de onda y espectrograma del mismo fragmento de Avenida
+Alemania. La escala espectral está expresada en dB relativos,
+no en dB SPL calibrados.
+:::
+
 **Para explorar:** vuelve a escuchar el audio. ¿Qué sucede
 alrededor de los segundos 11 y 27? ¿Qué cambios encuentras
 en el espectrograma?
@@ -176,10 +189,26 @@ en el espectrograma?
 Podemos estudiar características acústicas como la energía
 de corta duración (STE) y la potencia en altas frecuencias (HFP).
 
-**Visualización en clase:** examinaremos las características acústicas STE y HFP.
+:::{figure} ./media_local/fig_ste_hfp.png
+:label: fig-transito-ste-hfp
+
+Análisis exploratorio STE–HFP del fragmento nocturno.
+Los máximos de actividad no equivalen necesariamente
+a pasos individuales de vehículos.
+:::
+
 ### ¿Qué ocurre cuando agrupamos la actividad?
 
-**Visualización en clase:** estudiaremos los episodios acústicos y su comparación exploratoria con el video.
+:::{figure} ./media_local/fig_episodios_hfp.png
+:label: fig-transito-episodios
+
+Dos episodios de actividad acústica obtenidos mediante HFP.
+Las líneas verticales señalan instantes de cruce estimados a partir
+del video mediante detección con YOLO, seguimiento con ByteTrack y
+una regla geométrica de conteo. Estos eventos son referencias
+exploratorias, no anotaciones manuales verificadas.
+:::
+
 En nuestros experimentos encontramos tres máximos HFP
 con el umbral exploratorio de prominencia 0,05, agrupados
 en dos episodios de actividad.
@@ -197,7 +226,14 @@ intenta mantener sus identificadores a lo largo del tiempo.
 Posteriormente, un algoritmo identifica cuándo sus
 trayectorias cruzan líneas definidas sobre la calle.
 
-**Demostración en clase:** observaremos las detecciones y el seguimiento automático de vehículos.
+:::{figure} ./media_local/av_alemania_yolo_h264.mp4
+:label: video-yolo-nocturno
+
+Video nocturno anotado con YOLO11n y ByteTrack.
+Los cruces automáticos son resultados preliminares.
+Esta versión del video no contiene sonido.
+:::
+
 En este experimento nocturno registramos dos eventos de
 cruce. Eso no constituye por sí solo un conteo manual validado.
 

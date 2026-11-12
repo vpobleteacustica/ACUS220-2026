@@ -1,6 +1,8 @@
 version: 1
 
 project:
+  static_files:
+    - contenidos/06_conoce_tu_ciudad/media_local
   id: 5a0c7495-ef09-4184-acdf-3f8b9871613e
   title: ACUS220
   description: Curso optativo orientado al desarrollo de herramientas computacionales para estudiantes de Acústica.
